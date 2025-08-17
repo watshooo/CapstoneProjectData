@@ -1,4 +1,6 @@
 # CapstoneProjectData
+Latar Belakang
+=============
 Menganalisa sentimen komentar youtube channel investasi dengan klasifikasi menggunakan IBM Granite Instruct
 
 Mendekati HUT RI ke 80, BEI mengharapkan IHSG dapat mencapai 8000. Hal Tersebut disambut baik oleh OJK dan OJK menyambut baik optimisme tersebut (CNBC Indonesia). 
@@ -8,6 +10,7 @@ Hanya saja belakangan ini ekonomi sedang melemah. Mengutip dari layarbursa.com h
 Untuk mencari tahu pandangan masyarakat, saya menggunakan IBM Granite Instruct untuk mengklasifikasi komentar pada beberapa video channel investasi. Harapannya saya mendapatkan insight mengenai sentimen terkait IHSG yang akan naik
 
 Step by step secara singkat untuk membuat Project Capstone ini adalah sebagai berikut
+===========
 1. Persiapkan API
    API Crawling data komentar Youtube
    API Replicate untuk menjalankan IBM Granite Instruct
@@ -52,10 +55,12 @@ Step by step secara singkat untuk membuat Project Capstone ini adalah sebagai be
 6. Hasil nya seperti berikut
  <img width="528" height="504" alt="image" src="https://github.com/user-attachments/assets/8642b159-8f0f-4008-922c-c0786a7347a9" />
 
-Conclusion
+Conclusion:
+===========
 Beberapa Narasi memang ada yang mendukung IHSG untuk sampai ke 8000. Walaupun tidak signifikan dan lebih banyak yang neutral. Kemungkinan IHSG ke 8000 masih ada.
 
-Recomendation
+Recomendation:
+=========
 Untuk analisa sentimen ada baiknya data yang digunakan sudah lebih matang/ sudah siap untuk di feedkan ke LLM IBM Granite. Saya bukan pakar ahli yang bisa menentukan stopwords apa yang sekiranya harus diberikan dan berpengaruh terhadap hasil analisa LLM IBM Granite. 
 
 
