@@ -14,10 +14,11 @@ Step by step secara singkat untuk membuat Project Capstone ini adalah sebagai be
 2. Crawling Data komentar
 3. Feed data komentar ke model IBM Granite Instruct yang sudah di Beri Prompt dan setting param
    Setting parameter yang digunakan:
-     'temperature': 0.01,
-     'max_new_tokens': 12,
-     'top_p': 0.5,
-     'repetition_penalty': 1.2
+     temperature: 0.01,
+     max_new_tokens: 12,
+     top_p: 0.5,
+     repetition_penalty: 1.2
+
    ================================================================================================================================================================
    Prompt yang dipakai:
    [PERAN DAN KONTEKS]
@@ -44,5 +45,6 @@ Step by step secara singkat untuk membuat Project Capstone ini adalah sebagai be
 
   [KOMENTAR UNTUK DIANALISIS]
   Komentar: "{snippet}
+  
   ================================================================================================================================================================
 4. Muat Hasil LLM ke dalam CSV dan dibuat plot/chart sebagai penggambaran hasil klasifikasi komentar youtube
