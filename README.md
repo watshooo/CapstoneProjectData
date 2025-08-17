@@ -63,5 +63,7 @@ Recomendation:
 =========
 Untuk analisa sentimen ada baiknya data yang digunakan sudah lebih matang/ sudah siap untuk di feedkan ke LLM IBM Granite. Saya bukan pakar ahli yang bisa menentukan stopwords apa yang sekiranya harus diberikan dan berpengaruh terhadap hasil analisa LLM IBM Granite. 
 
+<img width="2442" height="1353" alt="image" src="https://github.com/user-attachments/assets/20f73fba-fd94-49f8-a669-544add620192" />
+
 
 
